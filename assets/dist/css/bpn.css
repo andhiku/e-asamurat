@@ -1,0 +1,180 @@
+.turun-1 {
+    padding-top: 30px;
+}
+.container{
+    margin-top:20px;
+}
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+.result-img {
+    margin-top: 15px;
+}
+.modal-title small {
+    color:#ffffff;
+}
+.with-border {
+    border-bottom: 1px solid #ECF0F5;
+    margin-bottom: 10px;
+}
+.dokument-information {
+    font-size: 15px;
+}
+.doc-label {
+    font-weight: bold;
+}
+.doc-files {
+    border-left: 1px solid #ECF0F5;
+}
+.first ul {
+    margin: 0;
+    padding: 0;
+}
+.first > li {
+    list-style-type: none;
+    cursor: pointer;
+    display: inline;
+}
+.pad-atbw {
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+.rak label{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.border-left {
+    border-left: 1px #F5F5F5 solid;
+}
+.border-right
+{
+    border-right: 1px #F5F5F5 solid;
+}
+.border-bottom {
+    border-top: 1px #F5F5F5 solid;
+}
+.bg-bpn {
+    background-color: #DDC79E;
+    color: #ffffff;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+.pad-atbw {
+    padding-top: 27px;
+}
+/* Tooltips Validate */
+.form-control + .tooltip > .tooltip-inner {
+    background-color: #ffffff; 
+    color: #000000; 
+    border: 1px solid brown; 
+    padding: 5px;
+    font-size: 12px;
+}
+/* Tooltip on top */
+.form-control + .tooltip.top > .tooltip-arrow {
+    border-top: 5px solid brown;
+}
+/* Tooltip on bottom */
+.form-control + .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 5px solid blue;
+}
+/* Tooltip on left */
+.form-control + .tooltip.left > .tooltip-arrow {
+    border-left: 5px solid red;
+}
+/* Tooltip on right */
+.form-control + .tooltip.right > .tooltip-arrow {
+    border-right: 5px solid black;
+}
+.wizard {
+    background: #fff;
+}
+
+
+.stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+    margin-top:20px;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+    background-color:#000000;
+}
+
+.stepwizard-row:before {
+    top: 19px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    z-order: 0;
+
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 16px;
+    line-height: 1.807086476;
+    border-radius: 20px;
+
+}
+.btn-circle, .warning {
+    color:#fff;
+    background-color:#CEB100;
+    border:#CEB100;
+}
+.btn-circle, .disabled, .primary {
+    color:#0000;
+}
+.img-thumbnail {
+    margin-top:20px;
+}
+.hr1  {
+    height:20px; width:100%;
+}
+
+.modal-80p {
+    width:80%; /* 80% of page to provide space for labels */
+}
